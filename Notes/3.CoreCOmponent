@@ -1,0 +1,19 @@
+Core components of RN are
+1. View
+2. Text
+3. Button
+4. TextInput
+5. Image
+Note1 => we cant show direct text in view like we do in div
+we have to put it in text
+
+Note--> In web dev flexbox all the flex items are arrange in column and when we do display:flex
+then all arrange in row 
+In native all arragne in column and when we do display flex it arrange in row
+
+In flexbox we can set child property using flex : grow srink baises
+
+In native in style if we have more than one class property we can pass as array 
+<View style={[styles.border, styles.map]} />
+
+FlatList is map of react native which render when item in screen and delete when not this lower the memory
